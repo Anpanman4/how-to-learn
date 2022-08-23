@@ -262,7 +262,6 @@ h1, h2, h3, h4, h5, h6, p{
 	display: flex;
 	box-sizing: border-box;
 	padding: 60px 0 40px;
-	border: 2px solid blue;
 }
 
 .footer__columns{
@@ -270,7 +269,6 @@ h1, h2, h3, h4, h5, h6, p{
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
-	border: 2px solid yellow;
 }
 
 .footer__column_content_copyright{
@@ -278,7 +276,6 @@ h1, h2, h3, h4, h5, h6, p{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	border: 2px solid red;
 }
 
 .footer__author{
