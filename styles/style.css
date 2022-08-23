@@ -5,10 +5,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p{
-	margin: 0;
-}
-
 .logo{
 	width: 228px;
 	height: 32px;
@@ -41,6 +37,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .header__subtitle{
+	margin: 0;
 	max-width: 388px;
 	width: 100%;
 	position: absolute;
@@ -88,6 +85,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .two-columns__brief{
+	margin: 0;
 	max-width: 175px;
 	width: 100%;
 	line-height: 1.2;
@@ -126,7 +124,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .section-title{
-	width: 60%;
+	max-width: 60%;
 	margin: 0 auto 20px;
 	line-height: 1.15;
 	font-size: 60px;
@@ -140,7 +138,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .section-subtitle{
-	width: 60%;
+	max-width: 60%;
 	margin: 0 auto;
 	line-height: 34px;
 	font-size: 24px;
@@ -285,7 +283,7 @@ h1, h2, h3, h4, h5, h6, p{
 	font-weight: normal;
 }
 
-.footer__heading{
+.footer__column-heading{
 	margin: 0 0 20px;
 	line-height: 30px;
 	font-size: 18px;
@@ -296,10 +294,13 @@ h1, h2, h3, h4, h5, h6, p{
 	margin-bottom: 18px;
 	display: flex;
 	flex-direction: column;
+	list-style-type: none;
+	padding: 0;
 }
 
 .footer__column-link{
 	margin: 0;
+	padding: 0;
 	line-height: 30px;
 	font-size: 18px;
 	font-weight: normal;
